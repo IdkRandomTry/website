@@ -24,12 +24,18 @@ body {
 }
 
 header {
-    background: white;
     padding: 4rem 2rem;
     text-align: center;
-    border-bottom: 1px solid #eee;
     position: relative;
     z-index: 1;
+}
+
+header .profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 0rem;
 }
 
 header h1 {
@@ -242,6 +248,11 @@ footer a {
     header h1 {
         font-size: 2rem;
         margin-bottom: 0.5rem;
+    }
+
+    header .profile-img {
+        width: 96px;
+        height: 96px;
     }
 
     header p {

@@ -1,12 +1,11 @@
 // All data embedded for local file:// access
 const portfolioData = {
   about: {
-    name: "Siddhesh Umarjee",
-    tagline: "CSE @ IIT Gandhinagar · Game Dev & Maths Enthusiast · Creative Coder",
-    bio: ["I'm Siddhesh, a fourth-year CS student who gets genuinely excited about games, math, and making cool stuff. I love blending rigorous thinking with creative problem-solving—whether that's designing games to teach logic, building algorithms for real-world problems, or exploring wild mathematical concepts like zero-knowledge proofs.", "Currently working on cryptographic provenance, but I'm always tinkering with something new. When I'm not coding, you'll find me on the tennis court, sketching, or juggling (sometimes literally juggling!)."],
+    name: "Siddhesh's Savepoint",
+    tagline: "Welcome to my humble digital abode!",
+    bio: ["I'm Siddhesh (but have profiles under the name SiddEz, IdkRandomTry or something similar). I intend to use this website just like savepoints in video games - to save my progress in this open-world game of life. Expect to find my ongoing quests and a catalogue of completed ones :D. I prefer thinking of my website in this way rather than a traditional portfolio. It urges me to fill it with content that I am proud of. Hope you find something fun here."],
     contact: [
       { label: "Email", url: "mailto:siddhesh.umarjee@iitgn.ac.in" },
-      { label: "LinkedIn", url: "https://www.linkedin.com/in/siddhesh-umarjee-a685ab280/" },
       { label: "GitHub", url: "https://github.com/IdkRandomTry" }
     ]
   },
@@ -61,7 +60,7 @@ function loadPortfolio() {
   document.querySelector('header h1').textContent = about.name;
   document.querySelector('header p').textContent = about.tagline;
   document.querySelector('.contact-links').innerHTML = about.contact.map(c => `<a href="${c.url}">${c.label}</a>`).join('');
-  document.querySelector('.about').innerHTML = `<h2>Hey!</h2>${about.bio.map(p => `<p>${p}</p>`).join('')}`;
+  document.querySelector('.about').innerHTML = `<h2>Hello Internet Traveller!</h2>${about.bio.map(p => `<p>${p}</p>`).join('')}`;
   document.getElementById('research-container').innerHTML = portfolioData.research.map(item => `<div class="research-item"><h3>${item.title}</h3><div class="meta">${item.institution} · ${item.dateRange}</div><p>${item.description}</p>${renderLinks(item.links)}<div class="tags">${renderTags(item.tags)}</div></div>`).join('');
   document.getElementById('projects-container').innerHTML = portfolioData.projects.map(item => `<div class="project-item"><h3>${item.title}</h3><div class="meta">${item.event} · ${item.dateRange}${item.status ? ' · ' + item.status : ''}</div><p>${item.description}</p>${renderLinks(item.links)}<div class="tags">${renderTags(item.tags)}</div></div>`).join('');
   document.getElementById('leadership-container').innerHTML = `<ul>${portfolioData.leadership.map(item => `<li><strong>${item.title}</strong> – ${item.description}</li>`).join('')}</ul>`;
