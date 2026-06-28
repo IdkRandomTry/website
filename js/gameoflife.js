@@ -94,8 +94,10 @@ class GameOfLife {
 document.addEventListener('DOMContentLoaded', () => {
   const canvas = document.getElementById('gameoflife-canvas');
   if (canvas) {
-    const width = Math.floor(canvas.parentElement.clientWidth / 5);
-    const height = Math.floor(window.innerHeight / 5);
-    new GameOfLife('gameoflife-canvas', width, height, 5);
+    // Responsive cellSize: larger on mobile, smaller on desktop
+    const cellSize = window.innerWidth < 768 ? 12 : 5;
+    const width = Math.floor(canvas.parentElement.clientWidth / cellSize);
+    const height = Math.floor(window.innerHeight / cellSize);
+    new GameOfLife('gameoflife-canvas', width, height, cellSize);
   }
 });

@@ -230,17 +230,36 @@ footer a {
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 2rem 1.5rem;
+    }
+
     header h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
     }
 
     header p {
-        font-size: 0.95rem;
+        font-size: 1rem;
+        margin-bottom: 1rem;
     }
 
     .contact-links {
         gap: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .contact-links a {
+        font-size: 0.9rem;
+    }
+
+    .container {
+        padding: 0 1rem;
     }
 
     section {
@@ -248,6 +267,63 @@ footer a {
     }
 
     section h2 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .about {
+        padding: 2rem 1rem;
+    }
+
+    .about p {
+        font-size: 0.95rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .research-item,
+    .project-item {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .research-item h3,
+    .project-item h3 {
+        font-size: 1rem;
+    }
+
+    .research-item p,
+    .project-item p {
+        font-size: 0.9rem;
+    }
+
+    .tag {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.6rem;
+    }
+
+    .skills {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1rem;
+    }
+
+    .skill-group h3 {
+        font-size: 0.85rem;
+    }
+
+    .skill-group li {
+        font-size: 0.85rem;
+    }
+
+    .achievements {
+        padding: 1.5rem;
+    }
+
+    .achievements li {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        padding: 1.5rem;
+        font-size: 0.85rem;
     }
 }
