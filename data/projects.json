@@ -1,0 +1,111 @@
+[
+  {
+    "id": "prove-it",
+    "title": "Prove It – Learn Logic Through Play",
+    "event": "SoME #4",
+    "dateRange": "Jul 2025 - Aug 2025",
+    "status": "Ranked 7th out of 100+!",
+    "description": "Built an actual game that teaches you intuitionistic logic. You build proof trees visually and it just clicks. Ranked 7th globally in peer review—still can't believe it!",
+    "tags": ["Game Dev", "Education", "Logic"],
+    "links": [
+      {
+        "label": "Play Now",
+        "url": "https://voxelrifts.itch.io/proveit"
+      }
+    ]
+  },
+  {
+    "id": "fedex-packing",
+    "title": "FedEx Packing Challenge – Make Things Fit",
+    "event": "InterIIT Tech Meet 13.0",
+    "dateRange": "Nov 2024 - Dec 2024",
+    "status": "",
+    "description": "Solved FedEx's real problem: how to squeeze packages into aircraft containers. Built a genetic algorithm that hit 71.6% efficiency. Pretty satisfying watching packages fit perfectly.",
+    "tags": ["Genetic Algorithms", "3D Bin Packing", "Optimization"],
+    "links": [
+      {
+        "label": "See Code",
+        "url": "https://github.com/IdkRandomTry/FedEx-PS-InterIIT-24-"
+      }
+    ]
+  },
+  {
+    "id": "beat-my-bot",
+    "title": "Beat My Bot – Programming Battles",
+    "event": "Digis Studios",
+    "dateRange": "Dec 2025 - Apr 2026",
+    "status": "2 Editions",
+    "description": "Created a competitive programming game where people write bots to play 2-player games. Like BattleCode but ours. Built the whole game engine from scratch—super fun!",
+    "tags": ["Game Engine", "Competition", "Systems Design"],
+    "links": [
+      {
+        "label": "Feb Edition",
+        "url": "https://github.com/Digis-Studios/BeatMyBot-v1"
+      },
+      {
+        "label": "Apr Edition",
+        "url": "https://github.com/Digis-Studios/BeatMyBot-v2"
+      }
+    ]
+  },
+  {
+    "id": "graphit",
+    "title": "Graphit – See Functions Come Alive",
+    "event": "SoME #2",
+    "dateRange": "Jun 2022 - Aug 2022",
+    "status": "Ranked 13/92",
+    "description": "Made a game about graphing functions. Turns out people think it's cool—3000+ views and 1500+ plays! My first real game and it still feels awesome.",
+    "tags": ["Game Dev", "Education", "UI/UX"],
+    "links": [
+      {
+        "label": "Play Now",
+        "url": "https://voxelrifts.itch.io/graphit"
+      }
+    ]
+  },
+  {
+    "id": "rang-geet",
+    "title": "Rang-Geet – Photos That Sing",
+    "event": "Curiosity Conference & Carnival",
+    "dateRange": "Dec 2024 - Jan 2025",
+    "status": "",
+    "description": "Turn any photo into music by mapping colors to musical notes. Weird? Yes. Cool? Absolutely. Won runners-up in the competition.",
+    "tags": ["Creative Computing", "Installation Art", "C"],
+    "links": [
+      {
+        "label": "See Code",
+        "url": "https://github.com/IdkRandomTry/Rang-Geet"
+      }
+    ]
+  },
+  {
+    "id": "hypergraph",
+    "title": "Hypergraph Partitioning – Splitting Complex Networks",
+    "event": "CS328: Data Science",
+    "dateRange": "Feb 2025 - Apr 2025",
+    "status": "",
+    "description": "Extended graph partitioning to hypergraphs. Basically, how do you split a network efficiently when connections aren't just pairs? Fun exploration.",
+    "tags": ["Graph Theory", "Data Science", "Algorithms"],
+    "links": [
+      {
+        "label": "Slides",
+        "url": "https://iitgnacin-my.sharepoint.com/:p:/g/personal/23110347_iitgn_ac_in/EaKxciw9JGtCqNscOs_NtvAB2attA6mQTuEfX_IayUCxWA?e=DpNzSA"
+      }
+    ]
+  },
+  {
+    "id": "puf-fpga",
+    "title": "Hardware Randomness – PUFs on FPGA",
+    "event": "ES204: Digital Systems",
+    "dateRange": "Feb 2025 - Apr 2025",
+    "status": "",
+    "description": "Built a random number generator using hardware imperfections. Sounds weird but it's actually how real cryptographic randomness works. Tested it on actual boards!",
+    "tags": ["Hardware Security", "Verilog", "FPGA"],
+    "links": [
+      {
+        "label": "See Code",
+        "url": "https://github.com/IdkRandomTry/PUF"
+      }
+    ]
+  }
+]

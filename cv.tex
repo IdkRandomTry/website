@@ -1,0 +1,271 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.1cm, bottom=0.3cm, left=0.3cm, right=1.1cm, nohead, nofoot]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+\usepackage[none]{hyphenat}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight = 29.1 cm
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.8cm}
+\newcommand{\psep}{-0.8cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.965\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-9pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.75cm}\\[-0.7cm]
+
+\Large{\textbf{Siddhesh Umarjee}} \\
+\normalsize
+\indent Senior Undergraduate \hfill  \href{mailto:siddhesh.umarjee@iitgn.ac.in}{siddhesh.umarjee@iitgn.ac.in}\\ 
+\indent Computer Science and Engineering \hfill  +91 7447454514 \\
+\indent IIT Gandhinagar \hfill
+\underline{\href{https://www.linkedin.com/in/siddhesh-umarjee-a685ab280/}{LinkedIn}} |
+\underline{\href{https://github.com/IdkRandomTry}{Github}}
+\\
+\\[-1cm]
+\vspace{0.1 cm}
+\\
+\\
+\indent\resheading{\textbf{EDUCATION}}\\[\lsep]
+\\ 
+\\[0.1cm]
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ p{1.7cm} @{\hskip 0.08in} p{7.254cm} @{\hskip 0.08in} p{5.054cm} @{\hskip 0.09in} p{2.554cm} @{\hskip 0.08in} p{1.72cm} }
+\toprule
+\textbf{Degree} & \textbf{Specialization} & \textbf{Institute} & \textbf{Year} & \textbf{CPI/\%} \\
+\midrule
+B.Tech. & \textit{Computer Science and Engineering} & IIT Gandhinagar & 2023-Present & 9.06 \\
+Class XII  & \textit{Physics, Chemistry, Maths, Computer Science}  &  M. P. International College & 2021-2023 & 81.83\\
+Class X  & & Abhinava Vidyalaya & 2011-2021 & 89.40\\
+\bottomrule
+\end{tabular}
+
+\indent\resheading{\textbf{RESEARCH PROJECTS} }
+\vspace{-0.45cm}
+\begin{itemize} \itemsep \isep
+    \item \textbf{Content provenance for blurred images, University of Sydney}  \hfill \emph{May '26 - Present}\\Visiting Researcher under \emph{\href{https://profiles.sydney.edu.au/aravind.thyagarajan}{Prof. Sri AravindaKrishnan Thyagarajan, University of Sydney}} |  \href{https://idkrandomtry.github.io/summer2026/} {\emph{\underline{Obsidian Vault (Notes)}}}\\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+        \item Studied the exciting field of content provenance which uses cryptographic security to verify source of published content with mathematical guarantees.
+        \item Attempted to develop a zero-knowledge proof system for image provenance when an untrusted editing software is used to blur sensitive private data. 
+        \item Concepts Used: \textbf{Zero Knowledge Proofs}, \textbf{Finite Field Algebra}
+    \end{itemize}
+
+    \item \textbf{Goats and Tigers on Grid-Like Boards - Combinatorial analysis of Baghchal}\hfill \emph{Jan '25 - Jul '26}\\\emph{Advisor - \href{https://iitgn.ac.in/faculty/cl/jyothi}{Prof. Jyothi Krishnan, IIT Gandhinagar}} and \href{https://iitgn.ac.in/faculty/cse/fac-neeldhara}{\emph{Prof. Neeldhara Misra, IIT Gandhinagar}}| \href{https://iitgnacin-my.sharepoint.com/:b:/g/personal/23110347_iitgn_ac_in/ES30h7gphVpFvku0PafoDYoBLl3NI_8z1ZdVIuVc7F1uQw?e=Wg2hjE}{\emph{\underline{Poster}}}\\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+        \item Studied ancient Indian game of BaghChal (Tigers and Goats). Started from simple boards made by grids with the aim of finding patterns in gameplay to develop strategies that will work on larger, more complex boards.
+        \item Discovered a non-trivial wining strategy for Grid-like boards. Also analysed strategy for infinite grid.
+        \item Our findings were accepted and published by the \textbf{38th Canadian Conference on Computational Geometry (CCCG)}.
+        \item Concepts Used: \textbf{Graph Theory}, \textbf{Combinatorial Game Theory}, \textbf{Proof Writing}
+    \end{itemize}
+
+    \item \textbf{Understanding Space-Time tradeoff in Turing Machines, IIT Kanpur}  \hfill \emph{May '25 - Jul'25}\\Research Intern under \emph{ \href{https://www.cse.iitk.ac.in/users/nitin/}{Prof. Nitin Saxena, IIT Kanpur}} |  \href{https://iitgnacin-my.sharepoint.com/:b:/g/personal/23110347_iitgn_ac_in/EUDxPGSqBT1Jiy_3R92cFYwBOvlVDrSU80oEuXmm3QzOLg?e=hibLeX} {\emph{\underline{Report}}}\\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+        \item Studied Ryan Williams' 2025 research paper: 'Simulating Time in Square Root Space'. The paper introduces a novel method for \textbf{space efficient simulation of Turing Machine }. It also contributes to differentiating P and PSPACE.
+        \item Investigated the 2024 Cook-Mertz tree evaluation procedure, a foundational technique at the core of the paper.
+        \item Prepared a technical report to explain the Cook-Mertz procedure to make it more broadly accessible.
+        \item Concepts Used: \textbf{Complexity Theory}, \textbf{Finite Field Algebra}
+    \end{itemize}
+    
+    
+    
+    % \item \textbf{Finite Plane Geometry in Games} for CS691: Computational Aspect of Games. \hfill [Mar '25 - April '25]\\\emph{Instructor - Prof. Jyothi Krishnan} \\[-0.6cm]
+    % \begin{itemize}\itemsep \isep
+    %     \item Studied and presented the application of Finite Plane Geometry in game design and analysis\
+    %     \item Concepts used: \textbf{Finite Field Geometry}, \textbf{Game Theory}
+    % \end{itemize}
+
+\end{itemize}
+
+\indent\resheading{\textbf{PROJECTS} }
+\vspace{-0.45cm}
+\begin{itemize}\itemsep \isep
+    
+    \item \textbf{Optimal Packing Algorithm} \\ \emph{Problem Statement by FedEx|  \href{https://www.linkedin.com/company/13th-inter-iit-tech-meet/} {InterIIT Tech Meet 13.0}  |  \href{https://github.com/IdkRandomTry/FedEx-PS-InterIIT-24-}{\underline{Project Link}}}  \hfill \emph{Nov '24 - Dec '24} \\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+         \item Developed an Algorithm for optimally fitting FedEx packages into aircraft containers considering factors like priority shipping, stability of packages, weight-limit of aircraft containers, practicality of solution and speed of algorithm. 
+        %\item Explored various approaches like Mixed-Integer Programming, Dynamic Programming, Heuristic Approach, Genetic Algorithms, etc. Tested each approach on package and container data provided by FedEx.
+        \item Implemented a \textbf{Genetic Algorithm} with logical heuristics at its base. Tested the algorithm on data provided by FedEx with 200 containers and 6 containers of different sizes. Achieved an average volumetric efficiency of 71.6\%
+        %\item Recieved appreciation and feedback after presenting solution to FedEx official in InterIIT Tech Meet at IIT Bombay.
+        \item Concepts Used: \textbf{Approximation Algorithms}, \textbf{3D Bin Packing / 3D Knapsack} | Programming: \textbf{Python}
+    \end{itemize}
+
+    \item \textbf{Prove It: Interactive Learning Game}  \hfill \emph{Jul '25 - Aug '25}\\\emph{{\href{https://some.3b1b.co/}{Summer of Math Exposition \#4 (SoME\#4)} }} |  \href{https://voxelrifts.itch.io/proveit} {\emph{\underline{Project Link}}}\\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+        \item Ideated and implemented\textit{ Prove It}: an educational puzzle game aimed at introducing zero order intuitionistic logic. 
+        \item The game leverages the Directed Acyclic Graph (DAG) representation of proofs for structured and intuitive visualization.
+        \item The submission ranked 7th globally after peer-review in SoME\#4 (\href{https://some.3b1b.co/archive?category=non-video&year=2025&page=1}{SoME\#4 Ranklist})
+        \item Concepts Used: \textbf{Interactive Learning}, \textbf{Zero Order Intiuonistic Logic}
+    \end{itemize}
+
+    \item \textbf{Beat My Bot Toolkits} for agent design competitions\hfill \emph{Dec '25 - Apr '26}\\\emph{Digis Studios, IIT Gandhinagar} |  \href{https://github.com/Digis-Studios/BeatMyBot-v1} {\emph{\underline{Feb edition}}} | \href{https://github.com/Digis-Studios/BeatMyBot-v2} {\emph{\underline{Apr edition}}} \\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+        \item Ideated \textit{Beat my Bot}, a competitive agent programming challenge inspired from \href{https://battlecode.org/}{battlecode} where participants write a bot to play 2-player games. Organised 2 editions. 
+        \item Developed the game engine with proper endpoints for participants along with a toolkit for smooth functioning of the competition.
+        \item Concepts Used: \textbf{Concurrent System Design}, \textbf{Algorithmic Strategies}
+    \end{itemize}
+
+    
+    \item \textbf{Hypergraph Partitioning} for CS328: Introduction to Data Science\ \hfill \emph{Feb '25 - Apr '25} \\
+    \emph{\href{https://iitgn.ac.in/faculty/cse/anirban}{Prof. Anirban Dasgupta, IIT Gandhinagar} | \href{https://iitgnacin-my.sharepoint.com/:p:/g/personal/23110347_iitgn_ac_in/EaKxciw9JGtCqNscOs_NtvAB2attA6mQTuEfX_IayUCxWA?e=DpNzSA}{\underline{Slides Link}}}\\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+        \item Proposed analogs of graph expansion and conductance to extend graph partitioning techniques to hypergraphs. 
+        \item Evaluated the quality of resulting partitions by comparing with available hypergraph partitioning algorithms.
+        \item Concepts Used: \textbf{Graph Theory}, \textbf{Hypergraph Theory}, \textbf{Data Science}
+
+    \end{itemize}
+
+    \item \textbf{Rang-Geet}\  \hfill [Dec '24 - Jan '25]\\
+    \emph{{(\href{https://www.curiositylab.iitgn.ac.in/carnival}{Curiosity Conference \& Carnival, IIT Gandhinagar}) } |  \href{https://github.com/IdkRandomTry/Rang-Geet} {\underline{Project Link}}}\\[-0.7cm]
+    \begin{itemize}\itemsep \isep
+        \item Ideated and Implemented the installation 'Rang-Geet' which can convert photos into musical \\rhythms by creatively associating color wave frequencies to musical note frequencies.
+        \item Received runners-up position in Panoply Competition 
+        \item Language Used: \textbf{C}
+    \end{itemize}
+
+    \item \textbf{Graphit: Interactive Learning Game}\  \hfill \emph{Jun '22 - Aug '22}\\\emph{{\href{https://www.3blue1brown.com/topics/some}{Summer of Math Exposition \#2 (SoME\#2)} } |  \href{https://voxelrifts.itch.io/graphit} {\underline{Project Link}}}\\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+        \item Ideated and implemented Graphit: a game which aims at developing an intuitive understanding for visualizing algebraic functions as graphs to the players. It has 3000+ views and 1500+ plays on itch.io.
+        \item The game cleared the peer-review round of SoME\#2 and ranked 13/92 globally in Non-Video category
+        \item Skills Used: \textbf{Interactive Learning}, \textbf{Game Development}, UI \& UX Design
+    \end{itemize}
+
+
+    
+    \item \textbf{Physically Unclonable Functions (PUFs) on FPGA board} for ES204: Digital Systems\ \hfill \emph{Feb '25 - Apr '25} \\
+    \emph{\href{https://iitgn.ac.in/faculty/ee/fac-joycee}{Prof. Joycee Mekie, IIT Gandhinagar} |  \href{https://github.com/IdkRandomTry/PUF} {\underline{Project Link}}}\\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+        \item Designed and implemented a \textbf{random number generator} using an \textbf{Arbiter PUF}, exploiting gate delay variations from manufacturing imperfections at hardware level. Verified non-determinism by testing on different Basys boards. %with the same seed, confirming each run produced a distinct random sequence.
+        \item Concepts: \textbf{PUFs}, \textbf{Hardware Security}, \textbf{Random Number Generation} | Tools: \textbf{Verilog}, \textbf{Basys3}
+    \end{itemize}
+    
+\end{itemize}
+
+
+
+% \indent\resheading{\textbf{TECHNICAL SKILLS} }
+% \vspace{-0.5cm}
+% \begin{itemize} \itemsep \isep
+% \item \textbf{Programming Languages:} Ut enim ad minim veniam, quis nostrud exercitation
+% \item \textbf{Tools:}   ullamco laboris nisi ut aliquip ex ea commodo consequat.
+% \item \textbf{Libraries:}  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+% % \LaTeX
+% \end{itemize}
+
+
+\indent\resheading{\textbf{SCHOLASTIC ACHIEVEMENTS} }
+\vspace{-0.45cm}
+\begin{itemize} \itemsep \isep
+    \item \textbf{College Rank 2} and \textbf{Dean's List Recipient} in Semester 1, 2023-2024    
+    \item \textbf{Academic Citation Recipient} in Semester II, 2024-2025.
+\end{itemize}
+
+
+\indent\resheading{\textbf{TEACHING EXPERIENCE} }
+\vspace{-0.45cm}
+
+\begin{itemize}
+
+\item \textbf{Teaching Assistant for ES214: Discrete Maths}  (Instructors - \href{https://www.neeldhara.com/}{ Prof. Neeldhara} and \href{https://iitgn.ac.in/faculty/cl/jyothi}{Prof. Jyothi})\hfill \emph{Aug '25 - Present}
+ \\[-0.6cm]
+\begin{itemize}\itemsep \isep
+    \item Conducted doubt-solving sessions to provide help to students who lacked clarity in the course content.
+    \item Helped develop interactive learning material, non-trivial grading schemes and engaging question bank.
+\end{itemize}
+
+\item \textbf{Mentor for ES112: Computing}  (Instructor - \href{https://iitgn.ac.in/faculty/cse/shouvick}{ Prof. Shouvik Mondal})\hfill \emph{Aug '24 - Nov '24}
+ \\[-0.6cm]
+\begin{itemize}\itemsep \isep
+    \item Conducted Academic Discussion Hours to provide help to students who struggled to keep up with the course speed.
+\end{itemize}
+\item \textbf{Participation in Summer of Maths Exposition (SoME\#1, SoME\#2 and SoME\#4)} \hfill \emph{Aug '21, Aug '22, Aug '24}\\ \emph{organized by \href{https://www.3blue1brown.com/}{3Blue1Brown}| \href{https://some.3b1b.co/}{Website Link}}
+ \\[-0.7cm]
+\begin{itemize}\itemsep \isep
+    \item Made open-to-all content with the aim of explaining maths concepts in an interactive and engaging way.
+    \item SoME rankings after peer-review (non-video category): \href{https://voxelrifts.itch.io/graphit}{GraphIt}: $13^{th}$ in SoME\#2 and \href{https://voxelrifts.itch.io/proveit}{ProveIt}: $7^{th}$ in SoME\#4.
+\end{itemize}
+
+% \item \textbf{Certification in Teaching} \hfill [Jan '24 - Feb '24]\\ \emph{(\href{https://sites.iitgn.ac.in/tedxiitgandhinagar/}{by Dean. Academic Affairs, IIT Gandhinagar})| \href{https://iitgnacin-my.sharepoint.com/:b:/g/personal/23110347_iitgn_ac_in/ERFFOo0SFf1CgnBpD4z-3noBznEkyNIn9sDUKMcjA-ZP0Q?e=4FqsWv}{Certification in Teaching}}
+%  \\[-0.7cm]
+% \begin{itemize}\itemsep \isep
+%     \item Recieved Certification in Teaching by the-then Dean. Academic Affairs, IITGN: \href{https://iitgn.ac.in/faculty/ee/fac-nithin}{Prof Nithin}
+% \end{itemize}
+
+\end{itemize}
+
+\indent\resheading{\textbf{POSITIONS OF RESPONSIBILITY} }
+\vspace{-0.45cm}
+\begin{itemize}
+
+
+\item \textbf{Event Lead, BrainWiz: Logic-based Exam by Technical Summit of IITGN} \hfill \emph{Aug '24 - Nov '24}\\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+         % \item Lead a team to conduct BrainWiz, an event in Amalthea: the Technical Summit of IITGN. 
+         \item Led a team aiming to spark curiosity in 150+ young minds by a logic-based exam with innovative questions.
+         % \item Ensured smooth running of the event with 150+ participation.
+    \end{itemize}
+
+
+\item \textbf{Secretary, DigiS: Game Development Club, IIT Gandhinagar} \hfill \emph{Jun '25 - Present}\\[-0.6cm]
+\begin{itemize}\itemsep \isep
+     \item Mentored 20+ students ranging from begineers to skilled to participate in varied Game Jams. 
+     \item Developed a game inspired by Lal Minar, a symbol of IIT Gandhinagar. \href{https://github.com/Digis-Studios/JumpSingh}{\emph{\underline{Github}}}
+     \item Lead a team which developed 'Viewport', a game which uses camera perspective in a novel way. The game recieved Silver medal at InterIIT Tech Meet 14.0. \href{https://github.com/Digis-Studios/gd-inter-iit-25}{\emph{\underline{Github}}}
+\end{itemize}
+
+\item \textbf{Overall Coordinator, Tinkerers' Lab, IIT Gandhinagar} \hfill \emph{Jun '25 - Present}\\[-0.6cm]
+\begin{itemize}\itemsep \isep
+     \item Conducted workshops to introduce students to usage of prototyping machineries like Laser-cutting and 3D Printing.
+\end{itemize}
+
+\item \textbf{Captain, Lawn Tennis Master's Cup} \hfill [Feb '24 - Mar '24]\\[-0.7cm]
+\begin{itemize}\itemsep \isep
+     \item Lead team 'Wimbledon Wizards' in IIT Gandhinagar Community Lawn Tennis League
+\end{itemize} 
+	
+\item \textbf{Secretary, Lawn Tennis IITGN} \hfill [May '26 - Present]\\[-0.7cm]
+\begin{itemize}\itemsep \isep
+     \item Lead the team to organize Lawn Tennis events and tournaments for the IITGN community.
+     \item Organized Lawn Tennis events for the Inter-IIT Sports Meet 2026.
+\end{itemize} 
+	
+
+
+\end{itemize}
+
+\indent\resheading{\textbf{EXTRA CURRICULAR ACTIVITIES} }
+\vspace{-0.45cm}
+\begin{itemize} \itemsep \isep
+    \item Enjoys Tennis, Doodling and Juggling. Represented IIT Gandhinagar in Tennis at Inter-IIT Sports Meet in 2023.
+    \item Traveled 15+ states of India in the duration of 42 days under IITGN's Explorers' Fellowship 2024. (\href{https://www.youtube.com/watch?v=c5idRllLfOQ}{\emph{Video Documentation}})
+    \item Organized social welfare events for underprivileged children with Nyasa, IIT Gandhinagar during Ganesh Utsav.
+\end{itemize}
+
+\end{document}

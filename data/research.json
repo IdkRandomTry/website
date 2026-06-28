@@ -1,0 +1,44 @@
+[
+  {
+    "id": "provenance-2026",
+    "title": "Content Provenance for Blurred Images",
+    "institution": "University of Sydney",
+    "dateRange": "May 2026 - Present",
+    "description": "Building zero-knowledge proof systems to cryptographically prove image provenance even when sensitive data is blurred. Pretty mind-bending stuff!",
+    "tags": ["Zero Knowledge Proofs", "Cryptography", "Finite Field Algebra"],
+    "links": [
+      {
+        "label": "Research Notes",
+        "url": "https://idkrandomtry.github.io/summer2026/"
+      }
+    ]
+  },
+  {
+    "id": "baghchal-2025",
+    "title": "Goats vs Tigers: The Game That Won't Stop",
+    "institution": "IIT Gandhinagar",
+    "dateRange": "Jan 2025 - Jul 2026",
+    "description": "Deep dive into Baghchal, an ancient Indian game. We discovered some genuinely cool winning strategies for grid-like boards. Got published at the Canadian Conference on Computational Geometry—pretty proud of that one!",
+    "tags": ["Graph Theory", "Combinatorial Game Theory", "Proof Writing"],
+    "links": [
+      {
+        "label": "Research Poster",
+        "url": "https://iitgnacin-my.sharepoint.com/:b:/g/personal/23110347_iitgn_ac_in/ES30h7gphVpFvku0PafoDYoBLl3NI_8z1ZdVIuVc7F1uQw?e=Wg2hjE"
+      }
+    ]
+  },
+  {
+    "id": "turing-machines-2025",
+    "title": "Space vs Time: The Turing Machine Tradeoff",
+    "institution": "IIT Kanpur",
+    "dateRange": "May 2025 - Jul 2025",
+    "description": "Dove deep into Ryan Williams' paper on doing more with less—literally! Explored how to simulate Turing Machines using way less space. Made a technical report to break it down for others.",
+    "tags": ["Complexity Theory", "Algorithms"],
+    "links": [
+      {
+        "label": "Technical Report",
+        "url": "https://iitgnacin-my.sharepoint.com/:b:/g/personal/23110347_iitgn_ac_in/EUDxPGSqBT1Jiy_3R92cFYwBOvlVDrSU80oEuXmm3QzOLg?e=hibLeX"
+      }
+    ]
+  }
+]

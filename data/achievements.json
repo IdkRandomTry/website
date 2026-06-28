@@ -1,0 +1,43 @@
+{
+  "achievements": [
+    {
+      "title": "College Rank 2",
+      "description": "in my first semester – Dean's List too!"
+    },
+    {
+      "title": "Published at CCCG",
+      "description": "The Baghchal research made it to a real conference"
+    },
+    {
+      "title": "SoME Rankings",
+      "description": "7th globally in SoME #4, 13th in SoME #2 (organized by 3Blue1Brown!)"
+    },
+    {
+      "title": "InterIIT Wins",
+      "description": "Silver medal for Viewport game, Runners-up in Panoply for Rang-Geet"
+    },
+    {
+      "title": "Explorers' Fellowship",
+      "description": "Traveled 15+ states across India in 42 days",
+      "link": "https://www.youtube.com/watch?v=c5idRllLfOQ"
+    }
+  ],
+  "extracurricular": [
+    {
+      "title": "Tennis",
+      "description": "Serious about it. Represented IITGN at Inter-IIT Sports Meet. Captain of the Lawn Tennis team"
+    },
+    {
+      "title": "Doodling",
+      "description": "Sketching is my chill time. Mostly abstract stuff"
+    },
+    {
+      "title": "Juggling",
+      "description": "Yeah, the actual kind with balls. Still learning new tricks"
+    },
+    {
+      "title": "Travel",
+      "description": "Spent 42 days traveling across 15+ Indian states. Met amazing people, saw incredible places"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Siddhesh Umarjee",
+  "tagline": "CSE @ IIT Gandhinagar · Game Dev & Maths Enthusiast · Creative Coder",
+  "bio": [
+    "I'm Siddhesh, a fourth-year CS student who gets genuinely excited about games, math, and making cool stuff. I love blending rigorous thinking with creative problem-solving—whether that's designing games to teach logic, building algorithms for real-world problems, or exploring wild mathematical concepts like zero-knowledge proofs.",
+    "Currently working on cryptographic provenance, but I'm always tinkering with something new. When I'm not coding, you'll find me on the tennis court, sketching, or juggling (sometimes literally juggling!)."
+  ],
+  "contact": [
+    {
+      "label": "Email",
+      "url": "mailto:siddhesh.umarjee@iitgn.ac.in"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/siddhesh-umarjee-a685ab280/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/IdkRandomTry"
+    }
+  ]
+}
